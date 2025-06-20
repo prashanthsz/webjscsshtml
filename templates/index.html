@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Profile</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <img src="{{ url_for('static', filename='icode-logo.png') }}" alt="Logo" style="height: 80px; display: block; margin: 20px auto;">
+  <div class="card" onclick="changeColor()">
+    <h2> ICODE </h2>
+    <p>I love coding!</p>
+    <button onclick="sayHello()">Click Me!</button>
+  </div>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+
+
